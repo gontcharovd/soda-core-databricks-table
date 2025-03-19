@@ -1,0 +1,4 @@
+checks for yellow_tripdata_january_2024:
+  - invalid_count(passenger_count) = 0:
+      valid min: 1
+      valid max: 6
