@@ -1,4 +1,8 @@
-checks for yellow_tripdata_january_2024:
+checks for workspace.new_york_yellow_taxi.yellow_tripdata_january_2024:
   - invalid_count(passenger_count) = 0:
       valid min: 1
       valid max: 6
+checks for check_data:
+  - invalid_count(passenger_count) = 0:
+      valid min: 1
+      valid max: 4
